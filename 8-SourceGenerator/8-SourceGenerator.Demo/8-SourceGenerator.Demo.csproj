@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>_8_SourceGenerator.Demo</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="swagger.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="swagger.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="RestSharp" Version="106.12.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\8-SourceGenerator.Attributes\8-SourceGenerator.Attributes.csproj" />
+		<ProjectReference Include="..\8-SourceGenerator.Generator\8-SourceGenerator.Generator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+
+</Project>

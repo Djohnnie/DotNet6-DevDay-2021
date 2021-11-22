@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.Console", "3-ModernizedTemplates.Console\3-ModernizedTemplates.Console.csproj", "{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Console Application", "1. Console Application", "{6C2E9257-3F61-478F-9F16-45DA512DC078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. ASP.NET Empty Web", "2. ASP.NET Empty Web", "{87394C7F-ED5F-44AB-8B04-D7B874991A3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.AspNetEmpty", "3-ModernizedTemplates.AspNetEmpty\3-ModernizedTemplates.AspNetEmpty.csproj", "{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. ASP.NET MVC", "3. ASP.NET MVC", "{F0598E75-C0E0-414E-8C82-472F1D8FAA09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.AspNetMvc", "3-ModernizedTemplates.AspNetMvc\3-ModernizedTemplates.AspNetMvc.csproj", "{2A37F941-E229-4B22-9EFD-BDEAE4438663}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.WorkerService", "3-ModernizedTemplates.WorkerService\3-ModernizedTemplates.WorkerService.csproj", "{B9D453A6-24A1-4042-B9FC-6700089C03B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Worker Service", "4. Worker Service", "{3D5A4784-F95D-4067-95D7-8BAC156C5429}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. gRPC", "5. gRPC", "{79C7FFAF-F17F-46E1-B1FB-7EDE49610654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.GrpcService", "3-ModernizedTemplates.GrpcService\3-ModernizedTemplates.GrpcService.csproj", "{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.GrpcClient.WinForms", "3-ModernizedTemplates.GrpcClient.WinForms\3-ModernizedTemplates.GrpcClient.WinForms.csproj", "{ACCE4F16-5F3A-488D-97DC-84861763F1EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3-ModernizedTemplates.GrpcClient.Wpf", "3-ModernizedTemplates.GrpcClient.Wpf\3-ModernizedTemplates.GrpcClient.Wpf.csproj", "{523049ED-336E-45E3-BAF9-ABD44AAE1A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A37F941-E229-4B22-9EFD-BDEAE4438663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A37F941-E229-4B22-9EFD-BDEAE4438663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A37F941-E229-4B22-9EFD-BDEAE4438663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A37F941-E229-4B22-9EFD-BDEAE4438663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D453A6-24A1-4042-B9FC-6700089C03B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D453A6-24A1-4042-B9FC-6700089C03B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D453A6-24A1-4042-B9FC-6700089C03B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D453A6-24A1-4042-B9FC-6700089C03B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCE4F16-5F3A-488D-97DC-84861763F1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCE4F16-5F3A-488D-97DC-84861763F1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCE4F16-5F3A-488D-97DC-84861763F1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCE4F16-5F3A-488D-97DC-84861763F1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523049ED-336E-45E3-BAF9-ABD44AAE1A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523049ED-336E-45E3-BAF9-ABD44AAE1A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523049ED-336E-45E3-BAF9-ABD44AAE1A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523049ED-336E-45E3-BAF9-ABD44AAE1A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EF14B53-D0B1-493C-B9D1-AF5B521F96A7} = {6C2E9257-3F61-478F-9F16-45DA512DC078}
+		{6A41BCCC-0A4C-46BA-8033-80FF40BEC4F6} = {87394C7F-ED5F-44AB-8B04-D7B874991A3F}
+		{2A37F941-E229-4B22-9EFD-BDEAE4438663} = {F0598E75-C0E0-414E-8C82-472F1D8FAA09}
+		{B9D453A6-24A1-4042-B9FC-6700089C03B4} = {3D5A4784-F95D-4067-95D7-8BAC156C5429}
+		{E49A3D90-7808-47F8-AFE2-F93E3AE48BEC} = {79C7FFAF-F17F-46E1-B1FB-7EDE49610654}
+		{ACCE4F16-5F3A-488D-97DC-84861763F1EC} = {79C7FFAF-F17F-46E1-B1FB-7EDE49610654}
+		{523049ED-336E-45E3-BAF9-ABD44AAE1A3F} = {79C7FFAF-F17F-46E1-B1FB-7EDE49610654}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC664220-06E0-44D3-86C2-B70838010FE6}
+	EndGlobalSection
+EndGlobal

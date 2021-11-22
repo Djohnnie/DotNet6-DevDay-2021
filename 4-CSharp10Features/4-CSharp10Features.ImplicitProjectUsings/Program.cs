@@ -1,0 +1,2 @@
+﻿
+WriteLine(E.MachineName);
